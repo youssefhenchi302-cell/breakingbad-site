@@ -1,0 +1,480 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2e7d32;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #ffeb3b;
+}
+
+.character {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.character img {
+  width: 100%;
+  border-radius: 8px;
+}
+/* General page style */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header style */
+header {
+  background-color: #2e7d32;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffeb3b;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+/* Events section */
+#events {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#events h2 {
+  text-align: center;
+  color: #ffeb3b;
+  margin-bottom: 30px;
+}
+
+/* Each season block */
+#events article {
+  background-color: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+#events article:hover {
+  transform: scale(1.02);
+  background-color: #222;
+}
+
+/* Season titles */
+#events h3 {
+  color: #4caf50;
+  margin-top: 0;
+}
+
+/* Lists of events */
+#events ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#events li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #2e7d32;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+/* Characters section */
+#characters {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#characters h2 {
+  text-align: center;
+  color: #ffeb3b;
+  margin-bottom: 30px;
+}
+
+/* Grid layout */
+.characters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Each character card */
+.character {
+  background-color: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.character:hover {
+  transform: scale(1.05);
+  background-color: #222;
+}
+
+/* Character images */
+.character img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Character names */
+.character h3 {
+  color: #4caf50;
+  margin: 10px 0 5px;
+}
+
+/* Character description */
+.character p {
+  font-size: 0.9em;
+  color: #ccc;
+}
+/* Navigation bar */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffeb3b;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #4caf50;
+}
+/* Sticky Navigation bar */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  position: sticky;   /* makes it stick */
+  top: 0;             /* sticks to the very top */
+  z-index: 1000;      /* ensures it stays above other elements */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffeb3b;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #4caf50;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  background-image: url("images/breakingbad-bg.png"); /* مسار الصورة */
+  background-size: cover;       /* تجعل الصورة تغطي الشاشة بالكامل */
+  background-position: center;  /* تضع الصورة في الوسط */
+  background-attachment: fixed; /* تبقى ثابتة عند التمرير */
+  color: white;                 /* لون النص ليظهر بوضوح */
+}
+.background::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: -1;
+}
+.card {
+  background-color: rgba(0, 30, 0, 0.7); /* dark green tint */
+  border: 2px solid #4CAF50;             /* Breaking Bad green */
+  border-radius: 10px;
+  color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #4CAF50; /* glowing chemistry effect */
+}
+.timeline {
+  background-color: rgba(0, 30, 0, 0.7);
+  border: 1px solid #4CAF50;
+  color: #fff;
+}
+
+.timeline th {
+  background-color: rgba(0, 60, 0, 0.9);
+  color: #4CAF50;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #4CAF50;
+  color: #000;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.background {
+  background-image: url("images/breakingbad-bg.png"); /* your background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.background::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* overlay for readability */
+  z-index: -1;
+}
+
+/* Navigation */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #4CAF50;
+  color: #000;
+}
+
+/* Cards */
+.card {
+  background-color: rgba(0, 30, 0, 0.7);
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #4CAF50;
+}
+
+/* Timeline Table */
+.timeline {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(0, 30, 0, 0.7);
+  color: #fff;
+}
+
+.timeline th, .timeline td {
+  border: 1px solid #4CAF50;
+  padding: 10px;
+  text-align: left;
+}
+
+.timeline th {
+  background-color: rgba(0, 60, 0, 0.9);
+  color: #4CAF50;
+}
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Background */
+body {
+  background-image: url("images/breakingbad-bg.png"); /* your Breaking Bad background */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* overlay for readability */
+  z-index: -1;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #4CAF50; /* Breaking Bad green */
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 30, 0, 0.8);
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #4CAF50;
+  color: #000;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  background-color: rgba(0, 30, 0, 0.6);
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 1000px;
+}
+
+/* Characters Grid */
+.characters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.character {
+  background-color: rgba(0, 30, 0, 0.7);
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.character img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.character:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #4CAF50;
+}
+
+/* Events */
+#events ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+#events article {
+  margin-bottom: 30px;
+}
+
+#events h3 {
+  color: #4CAF50;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 30, 0, 0.8);
+  color: #ccc;
+  border-top: 2px solid #4CAF50;
+}
